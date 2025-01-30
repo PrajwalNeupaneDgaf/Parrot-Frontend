@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const fetcher = axios.create({
-    baseURL:"https://parrot-backend-si0b.onrender.com/api/",
+    baseURL:"https://parrot-backend-m0g3.onrender.com/api/",
     withCredentials:true,
 
 })

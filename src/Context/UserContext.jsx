@@ -36,7 +36,7 @@ const UserContext = ({ children }) => {
 
 
     useEffect(()=>{
-        const socket = io("https://parrot-backend-si0b.onrender.com",{
+        const socket = io("https://parrot-backend-m0g3.onrender.com",{
           query:{
             id:User?._id
           }
